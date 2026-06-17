@@ -20,6 +20,7 @@ public class LongestPalindromeSubsequence {
             return 0;
         }
         if(l==r) {
+            // l and r at same index. so same element. returns 1.
             return 1;
         }
         int answer = 0;
