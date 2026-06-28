@@ -1,11 +1,20 @@
 package com.ds.basics.dp;
 
+/**
+ * Code No: 198 - House Robber - Dynamic Programming.
+ *
+ * @author Karthikeyan
+ */
 public class HouseRobber {
 
+    /**
+     * House Robber
+     * @param arr int[]
+     * @param len int
+     * @return int
+     */
     public static int houseRobber(int []arr, int len) {
-
         int []dp = new int[arr.length];
-
         dp[0] = 0;
         dp[1] = arr[0];
         for(int i = 2; i <= len; i++) {
@@ -16,7 +25,6 @@ public class HouseRobber {
 
     public static void main(String []args) {
         int []arr = {5, 3, 4, 11, 2};
-
         System.out.println(houseRobber(arr, arr.length -1));
     }
 }

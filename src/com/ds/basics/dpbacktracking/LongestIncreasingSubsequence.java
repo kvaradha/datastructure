@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Longest Increasing Subsequence - 1D Dynamic programming.
  *
- * @author kvaradha
+ * @author Karthikeyan
  */
 public class LongestIncreasingSubsequence {
 
