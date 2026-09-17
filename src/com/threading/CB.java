@@ -21,6 +21,7 @@ public class CB implements  Runnable {
         try {
             for (int i = 0; i < 10; i++) {
                 System.out.println(i);
+                //All thread stops here.
                 cyclicBarrier.await();
                 Thread.sleep(2000);
             }
